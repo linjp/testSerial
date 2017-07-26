@@ -27,4 +27,16 @@ public class MainActivity extends AppCompatActivity {
             btn_feature_1.setText("功能1");
         }
     }
+    /**
+     * feature-1
+     * display HelloWorld
+     * @param view
+     */
+    public void feature2(View view) {
+        if (btn_feature_1.getText().toString().equals("功能1")) {
+            btn_feature_1.setText("功能1");
+        } else {
+            btn_feature_1.setText("功能1");
+        }
+    }
 }
