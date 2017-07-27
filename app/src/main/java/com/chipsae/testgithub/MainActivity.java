@@ -39,4 +39,8 @@ public class MainActivity extends AppCompatActivity {
             btn_feature_1.setText("功能1");
         }
     }
+
+    public void bubbleSort(){
+        System.out.println("i am a new brantch");
+    }
 }
