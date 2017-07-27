@@ -27,4 +27,8 @@ public class MainActivity extends AppCompatActivity {
             btn_feature_1.setText("功能1");
         }
     }
+
+    public void testB(){
+        System.out.println("testB!!");
+    }
 }
